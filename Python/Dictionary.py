@@ -30,7 +30,7 @@ print("Printing Both Item's: ",dic.items()) #converting to list and printing Key
 print(dic.update({32:'santhu'})) #one key with a value updated, and we can store it in a variable also
 print("Printing Dictionary: ",dic)
 
-for i in dic: #here we accessing key's olny follow 👇🏻
+for i in dic: #here we accessing key's olny, follow 👇🏻
     print(i)
 
 for i in dic.items(): #Here we accessing items {keys : values} using => .items() we can use .values() keys are default.
