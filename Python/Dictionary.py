@@ -44,3 +44,4 @@ for i in {2:'xyz', 24:'Harish', 'star':5}:
 for i,j in {2:'xyz', 24:'Harish', 'star':5}.items(): #here we accessin items in to i,j Variables
     print(i,j) #printing i,j Values
     
+ 
