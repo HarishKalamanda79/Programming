@@ -42,4 +42,16 @@ is subset
 is superset
 '''
 
+#.union()
+a = {1,2,3,4,5,6}
+b = {3,4,6}
+print("union of a & b:",a.union(b)) #adding a+b set's, and removing duplicate's on that and then print's
 
+#.intersection()
+print("intersection of a & b:",a.intersection(b)) #printing same values from both a & b set's
+
+#.difference()
+print("Difference between a and b: ",a.difference(b)) #print's a value's, difference in b value's
+
+#.issubset()
+print(a.issubset(b)) #here a is superset not subset so: False
