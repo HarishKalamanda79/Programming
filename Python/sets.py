@@ -54,4 +54,8 @@ print("intersection of a & b:",a.intersection(b)) #printing same values from bot
 print("Difference between a and b: ",a.difference(b)) #print's a value's, difference in b value's
 
 #.issubset()
-print(a.issubset(b)) #here a is superset not subset so: False
+print("is a subset of b: ",a.issubset(b)) #here a is superset not subset so: False
+
+#issuperset()
+print("is a superset of b: ",a.issuperset(b))
+
